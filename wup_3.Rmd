@@ -57,6 +57,11 @@ The numerical summary shows that the students who sit in the back drink about te
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
 ## Conclusions
 
 
